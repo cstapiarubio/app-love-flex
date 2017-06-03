@@ -116,14 +116,15 @@ body {
 }
 
 .img-work{
-	width: 30%;
+	width: 80%;
 }
 
 .work-box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	width: 30%;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-top: 100px;
+
 }
 
 /* footer*/ 
