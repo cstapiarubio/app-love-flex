@@ -1,33 +1,33 @@
 body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
-  background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
-  font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
+	background-color: #fff;
+	/* Enlaza la tipografia Open Sans */
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* diseño para seccion navegador*/
- .link{
- 	font-weight: 700;
- 	padding: 21px;
- 	display: inline-block;
- }
+.link{
+	font-weight: 700;
+	padding: 21px;
+	display: inline-block;
+}
 
- /*contenedor flexbox*/
- .flex-container{
- 	display: flex;
- }
+/*contenedor flexbox*/
+.flex-container{
+	display: flex;
+}
 
- /* menú*/
+/* menú*/
 
- .menu{
- 	background-color: white;
- 	position: fixed;
- 	top: 0;
- 	left: 0;
- 	width: 100%;
- }
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
 
 .menu.flex-container{
 	justify-content: flex-start;
@@ -50,52 +50,90 @@ body {
 	margin-top: 70px;
 
 	background-image: url(../assets/images/bg-home.jpg);
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 
-justify-content: center;
-align-items: center;
-flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 
-color: whitesmoke;
+	color: whitesmoke;
 }
 
 .text-home{
 	font-size: 2.4em;
 }
 
- .btn-home{
- 	background: #2Ecc71;
- 	color: #fff;
- 	padding: 11px 20px;
- 	border-radius: 1px;
- 	font-weight: 500;
- 	text-transform: uppercase;
- 	margin-top: 63px;
- 	display: inline-block;
- 	font-size: 14px;
- }
+.btn-home{
+	background: #2Ecc71;
+	color: #fff;
+	padding: 11px 20px;
+	border-radius: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 63px;
+	display: inline-block;
+	font-size: 14px;
+}
 
- /* services*/
+/* services*/
 
- #services{
- 	background-color: #F17C72;
- 	text-align: center;
- 	color: #fff;
- 	padding: 70px;
- }
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
 
- #services.flex-container{
- 	justify-content: space-around;
- 	flex-wrap: wrap;
- }
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 
- .box-services{
- 	font-size: 1.2em;
- 	font-weight: bold;
- }
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* work*/
+
+#work{
+	background-color: white;
+	text-align: center;
+	color: black;
+	padding: 70px;
+}
+
+#work.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.img-principal-work{
+	width: 100%;
+}
+
+.img-work{
+	width: 30%;
+}
+
+.work-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* footer*/ 
+
+footer{
+	background-color: #738088;
+	color: whitesmoke;
+	text-align: center;
+	padding: 30px;
+}
 
 
 /* EJERCICIO GUIADO DE BLANCA
